@@ -1,4 +1,4 @@
-# FrontEndSchool_TIL
-FrontEndSchool_LikeLion TIL 
+# FrontEndSchool_
+FrontEndSchool_LikeLion
 
 2023-02-27 ~ 2023-06-30
