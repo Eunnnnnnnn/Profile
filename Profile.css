@@ -1,81 +1,97 @@
 body {
-            background: linear-gradient(135deg, #a74da5, #ff735e);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Black+Han+Sans';
-        }
+    background: linear-gradient(135deg, #a74da5, #ff7e5e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Single Day', cursive;
+}
+#Profilewrap {  
+    background: white;           
+    padding: 0;
+    /* 크기 지정 4x5 비율 */
+    width: 360px;
+    height: 500px;
+    
+    /* 가운데 정렬 코드  */
+    /* margin: 0 auto; */
+    /* background: pink; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
 
-        #Profilewrap {
-            width: 400px;
-            height: 500px;
-            background-color: white;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 20px;
-            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
-        }
+.profile-section,
+.large-image,
+.icons-section,
+.text-section {
+box-sizing: border-box;
+width: 90%; 
+padding: 16px;
+}
 
-        .profile-seciton,
-        .large-image,
-        .icons-section,
-        .text-section {
-            box-sizing: border-box;
-            width: 90%;
-            padding: 16px;
-        }
+.profile-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
 
-        .profile-seciton {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('https://i.namu.wiki/i/2IaFrn_hVg23_OeV4XBuq9p691VQad8IiabrGkaPBEc142ON-rd8PmPmw4UyuUXKF766Of-Kf2dX2HkBUTEWgF9t_MqWfmv5Xif_3rPotG_5Ji_P5RgVJ5oPtWZfREs5vDj0xLWYArAppisqkeUE5A.webp');
+    background-size: cover;
+}
 
-        .profile-image {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            /* background-color: #e55d87;*/
-            background-image: url('https://i.namu.wiki/i/2IaFrn_hVg23_OeV4XBuq9p691VQad8IiabrGkaPBEc142ON-rd8PmPmw4UyuUXKF766Of-Kf2dX2HkBUTEWgF9t_MqWfmv5Xif_3rPotG_5Ji_P5RgVJ5oPtWZfREs5vDj0xLWYArAppisqkeUE5A.webp');
-            background-size: cover;
-        }
+.profile-name {
+    font-weight: bold;
+    line-height: 1;
+    flex: 2;
+}
 
-        .profile-name {
-            font-weight: bold;
-            line-height: 1;
-            flex: 2;
-        }
+.profile-name span{
+    color: #aaa;
+    font-size: 14px;
+    
+}
 
-        .profile-name span {
-            color: #aaa;
-            font-size: 14px;
-        }
 
-        .profile-menu {
-            flex: 1;
-            text-align: right;
-        }
+.profile-menu{
+    flex: 1;
+    text-align: right;
+}
 
-        .large-image {
-            width: 90%;
-            height: 55%;
-            /*background-color: #ccc;*/
-            background-image: url(https://file.mk.co.kr/meet/neds/2023/03/image_readtop_2023_212333_16790422215393595.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            align-items: center;
-            margin: 0 auto;
-        }
+.large-image {
+    width: 90%;
+    height: 55%;
+    background-image: url(https://file.mk.co.kr/meet/neds/2023/03/image_readtop_2023_212333_16790422215393595.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0 auto;
+}
 
-        .icons-section { 
-            width: 10px;
-            height: 10px;
-            display: flex;
-            flex-direction: row;
-            gap: 5px;
-        }
+.icons-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 8%;
+}
+
+.text-section {
+    width: 100%;
+    height: 16%;
+    padding: 3px 16px;
+}
+
+.hashtags {
+    color: #507edc;
+}
